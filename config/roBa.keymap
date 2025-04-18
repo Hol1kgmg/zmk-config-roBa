@@ -89,10 +89,10 @@
 
         ARROW_FN {
             bindings = <
-&none         &none               &kp UP_ARROW        &none                &none                                                    &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
-&kp LCTRL     &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none       &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &none
-&kp LEFT_ALT  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none       &none                   &none                &none                     &none      &none      &none   &none
-&kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &mo 1                &kp DELETE  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
+&none         &none               &kp UP_ARROW        &none                &none                                                       &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
+&kp LCTRL     &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none          &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &none
+&kp LEFT_ALT  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none          &none                   &none                &none                     &none      &none      &none   &none
+&kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &mo 1                &kp BACKSPACE  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
