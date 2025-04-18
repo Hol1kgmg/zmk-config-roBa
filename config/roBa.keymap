@@ -73,7 +73,7 @@
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &mo 1      &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &kp ENTER                       &mo 2
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         NUM {
@@ -84,7 +84,7 @@
 &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &mo 1         &none      &none        &kp LANG5   &kp LANG4                                                      &mo 2
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         ARROW_FN {
@@ -95,7 +95,7 @@
 &kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &mo 1                &kp DELETE  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
     };
 };
