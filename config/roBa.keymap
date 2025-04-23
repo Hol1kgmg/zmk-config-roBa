@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp L         &kp U      &kp COMMA  &kp PERIOD                                     &kp F      &kp W  &kp R  &kp Y  &kp P
-&kp E         &kp I         &kp A      &kp O      &kp MINUS      &none               &kp ESCAPE  &kp K      &kp T  &kp N  &kp S  &kp H
-&kp Z         &kp X         &kp C      &kp V      &kp SLASH      &kp TAB             &none       &kp G      &kp D  &kp M  &kp J  &kp B
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &mo 1      &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &kp ENTER                       &mo 2
+&mt LCTRL Q     &kp L         &kp U      &kp COMMA  &kp PERIOD                                     &kp F            &kp W  &kp R  &kp Y  &kp P
+&mt LEFT_ALT E  &kp I         &kp A      &kp O      &kp MINUS      &none               &kp ESCAPE  &kp K            &kp T  &kp N  &kp S  &lt 1 H
+&mt LEFT_GUI Z  &kp X         &kp C      &kp V      &kp SLASH      &kp TAB             &none       &kp G            &kp D  &kp M  &kp J  &lt 2 B
+&kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL  &kp LANG5  &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &mt LANG4 ENTER                       &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -78,10 +78,10 @@
 
         NUM {
             bindings = <
-&none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET                           &kp DLLR       &kp LPAR          &kp RPAR           &none          &none
-&kp N0        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPS   &none        &kp ESCAPE  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp COLON
-&kp LEFT_ALT  &kp N7        &kp N8        &kp N9        &kp PIPE   &kp TAB      &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &none
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &mo 1         &none      &none        &kp LANG5   &kp LANG4                                                          &kp RIGHT_SHIFT
+&kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET                                      &kp DLLR       &kp LPAR          &kp RPAR           &kp SEMICOLON  &none
+&kp LEFT_ALT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPS       &none               &kp ESCAPE  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &mo 1
+&kp LEFT_GUI  &kp N7        &kp N8        &kp N9        &kp PIPE       &kp TAB             &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &mo 2
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &kp LANG5     &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &kp ENTER                                                          &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -89,10 +89,10 @@
 
         ARROW_FN {
             bindings = <
-&none         &none               &kp UP_ARROW        &none                &none                                                       &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
-&kp LCTRL     &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none          &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &none
-&kp LEFT_ALT  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none          &none                   &none                &none                     &none      &none      &none   &none
-&kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &mo 1                &kp BACKSPACE  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
+&kp LCTRL     &none               &kp UP_ARROW        &none                &none                                                       &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
+&kp LEFT_ALT  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none          &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &mo 1
+&kp LEFT_GUI  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none          &none                   &none                &none                     &none      &none      &none   &mo 2
+&kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &kp LG(Z)            &kp LG(LS(Z))  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
