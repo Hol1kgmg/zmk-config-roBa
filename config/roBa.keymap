@@ -80,7 +80,7 @@
             bindings = <
 &none            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET                                       &kp DLLR       &kp LPAR          &kp RPAR           &kp SEMICOLON  &none
 &mt LEFT_ALT N0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPS       &none                &kp ESCAPE  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &mo 1
-&kp LEFT_GUI     &kp N7        &kp N8        &kp N9        &kp PIPE       &kp TAB              &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &mo 2
+&kp LEFT_ALT     &kp N7        &kp N8        &kp N9        &kp PIPE       &kp TAB              &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &mo 2
 &kp LEFT_GUI     &kp LEFT_ALT  &kp LCTRL     &kp LANG5     &kp BACKSPACE  &kp RIGHT_SHIFT      &kp SPACE   &kp ENTER                                                          &mo 2
             >;
 
