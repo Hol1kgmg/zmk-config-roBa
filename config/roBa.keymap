@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&mt LCTRL Q     &kp L         &kp U      &kp COMMA  &kp PERIOD                                     &kp F            &kp W  &kp R  &kp Y  &kp P
-&mt LEFT_ALT E  &kp I         &kp A      &kp O      &kp MINUS      &none               &kp ESCAPE  &kp K            &kp T  &kp N  &kp S  &lt 1 H
-&mt LEFT_GUI Z  &kp X         &kp C      &kp V      &kp SLASH      &kp TAB             &none       &kp G            &kp D  &kp M  &kp J  &lt 2 B
-&kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL  &kp LANG5  &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &mt LANG4 ENTER                       &mo 2
+&mt LCTRL Q     &kp L         &kp U      &kp COMMA  &kp PERIOD                                      &kp F            &kp W  &kp R  &kp Y  &kp P
+&mt LEFT_ALT E  &kp I         &kp A      &kp O      &kp MINUS      &none                &kp ESCAPE  &kp K            &kp T  &kp N  &kp S  &lt 1 H
+&mt LEFT_GUI Z  &kp X         &kp C      &kp V      &kp SLASH      &kp TAB              &none       &kp G            &kp D  &kp M  &kp J  &lt 2 B
+&kp LEFT_GUI    &kp LEFT_ALT  &kp LCTRL  &kp LANG5  &kp BACKSPACE  &kp RIGHT_SHIFT      &kp SPACE   &mt LANG4 ENTER                       &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -78,10 +78,10 @@
 
         NUM {
             bindings = <
-&kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET                                      &kp DLLR       &kp LPAR          &kp RPAR           &kp SEMICOLON  &none
-&kp LEFT_ALT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPS       &none               &kp ESCAPE  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &mo 1
-&kp LEFT_GUI  &kp N7        &kp N8        &kp N9        &kp PIPE       &kp TAB             &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &mo 2
-&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &kp LANG5     &kp BACKSPACE  &kp LEFT_SHIFT      &kp SPACE   &kp ENTER                                                          &mo 2
+&kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CARET                                       &kp DLLR       &kp LPAR          &kp RPAR           &kp SEMICOLON  &none
+&kp LEFT_ALT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPS       &none                &kp ESCAPE  &kp AT         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COLON      &mo 1
+&kp LEFT_GUI  &kp N7        &kp N8        &kp N9        &kp PIPE       &kp TAB              &none       &kp RS(UNDER)  &kp DQT           &kp SINGLE_QUOTE   &none          &mo 2
+&kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &kp LANG5     &kp BACKSPACE  &kp RIGHT_SHIFT      &kp SPACE   &kp ENTER                                                          &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
