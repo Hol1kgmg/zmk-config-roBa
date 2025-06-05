@@ -89,8 +89,8 @@
 
         ARROW_FN {
             bindings = <
-&kp LCTRL     &none               &kp UP_ARROW        &none                &none                                                       &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
-&kp LEFT_ALT  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &none          &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &mo 1
+&kp LCTRL     &none               &kp UP_ARROW        &none                &kp F13                                                     &none                     &kp F1     &kp F2     &kp F3  &bt BT_CLR_ALL
+&kp LEFT_ALT  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW      &kp F14        &none                   &none                &kp LS(LG(LC(NUMBER_4)))  &mkp LCLK  &mkp RCLK  &none   &mo 1
 &kp LEFT_GUI  &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &none          &none                   &none                &none                     &none      &none      &none   &mo 2
 &kp LEFT_GUI  &kp LEFT_ALT        &kp LCTRL           &none                &kp BACKSPACE  &kp LC(LEFT_ARROW)      &kp LC(RIGHT_ARROW)  &kp F13                                                 &mo 2
             >;
